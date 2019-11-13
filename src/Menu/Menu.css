@@ -11,6 +11,7 @@
 .menu-container > .item {
     flex: 1;
 }
+
 .home {
     background-image: url(home-icon.svg);
     width: 25px;
