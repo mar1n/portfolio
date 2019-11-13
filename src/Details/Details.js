@@ -2,6 +2,7 @@ import React from 'react';
 import { Link, Redirect } from 'react-router-dom';
 import getactivity from '../activity-get';
 import './Details.css';
+import Timer from '../stopwatch/App.js';
 
 export default class Details extends React.Component {
 
@@ -25,6 +26,8 @@ export default class Details extends React.Component {
         } else {
             return (
                 <div className='Details'>
+                    
+                    {this.state.sport.name === 'Stopwatch' ? <Timer /> : 'dawidowicz'}
                     <h1>{this.state.sport.name}</h1>
                     <div className='content'>
                         <div className='text'>

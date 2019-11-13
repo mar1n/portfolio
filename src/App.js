@@ -7,6 +7,7 @@ import Footer from './Footer/Footer.js';
 import './App.css';
 import NotFound from './NotFound';
 
+
 function App() {
   return (
     <Router>
@@ -18,6 +19,7 @@ function App() {
           <Route exact path='/:sportId' component={Details} />
         </Switch>
         <Footer />
+        
       </div >
     </Router>
   );
