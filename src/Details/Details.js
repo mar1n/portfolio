@@ -2,6 +2,7 @@ import React from 'react';
 import { Link, Redirect } from 'react-router-dom';
 import getactivity from '../activity-get';
 import './Details.css';
+// eslint-disable-next-line
 import Timer from '../stopwatch/App.js';
 
 export default class Details extends React.Component {
@@ -27,8 +28,9 @@ export default class Details extends React.Component {
             return (
                 <div className='Details'>
 
-                    {this.state.sport.name === 'Stopwatch' ? <Timer /> : 'dawidowicz'}
-                    {this.state.sport.componentSta}
+                    {this.state.sport.componentName}
+                    
+                    
                     <h1>{this.state.sport.name}</h1>
                     <div className='content'>
                         <div className='text'>
