@@ -26,7 +26,7 @@ export default class Details extends React.Component {
         } else {
             return (
                 <div className='Details'>
-                    
+
                     {this.state.sport.name === 'Stopwatch' ? <Timer /> : 'dawidowicz'}
                     <h1>{this.state.sport.name}</h1>
                     <div className='content'>
@@ -39,7 +39,9 @@ export default class Details extends React.Component {
                             alt={this.state.sport.name} />
                     </div>
                     <Link to='/'>
-                        Back to home page
+                        <div className='backtohome'>
+                            
+                        </div>
                     </Link>
                 </div>
             );

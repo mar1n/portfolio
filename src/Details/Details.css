@@ -7,6 +7,13 @@
     padding: 15px;
 }
 
+.backtohome {
+    background-image: url(undo-icon.svg);
+    width: 25px;
+    height: 30px;
+    background-repeat: no-repeat;
+}
+
 @media only screen and (max-width: 600px) {
     .Details .content {
         flex-direction: column;
