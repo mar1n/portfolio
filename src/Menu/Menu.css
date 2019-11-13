@@ -1,6 +1,6 @@
 .menu {
     display:flex;
 }
-.menu . item {
+.menu > .item {
     flex: 1;
 }

@@ -1,0 +1,7 @@
+.footer {
+    display: flex;
+}
+
+.footer > .item {
+    flex: 1;
+}
