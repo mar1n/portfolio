@@ -5,27 +5,27 @@ const Menu = () => {
     return <div className='menu'>
         <div className='item'>
             <div className='left'>
-            <h1>Szymon Dawidowicz</h1>
+            Szymon Dawidowicz
             </div>
         </div>
         <div className='item'>
             <div className='menu-container'>
-                <div className='item'>
+                <div className='menu-item'>
                     <div className='home'>
 
                     </div>
                 </div>
-                <div className='item'>
+                <div className='menu-item'>
                     <div className='about'>
 
                     </div>
                 </div>
-                <div className='item'>
+                <div className='menu-item'>
                     <div className='skills'>
 
                     </div>
                 </div>
-                <div className='item'>
+                <div className='menu-item'>
                     <div className='portfolio'>
 
                     </div>

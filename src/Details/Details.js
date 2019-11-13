@@ -28,6 +28,7 @@ export default class Details extends React.Component {
                 <div className='Details'>
 
                     {this.state.sport.name === 'Stopwatch' ? <Timer /> : 'dawidowicz'}
+                    {this.state.sport.componentSta}
                     <h1>{this.state.sport.name}</h1>
                     <div className='content'>
                         <div className='text'>
