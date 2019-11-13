@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Activity from './Activity.js';
 import Details from './Details/Details.js';
+import Menu from './Menu/Menu.js';
 import './App.css';
 import NotFound from './NotFound';
 
@@ -9,6 +10,7 @@ function App() {
   return (
     <Router>
       <div className="App">
+        <Menu />
         <Switch>
           <Route exact path='/' component={Activity} />
           <Route exact path='/not-found' component={NotFound} />
