@@ -5,3 +5,22 @@
 .footer > .item {
     flex: 1;
 }
+
+.linkedin {
+        background-image: url(linkedin-icon.svg);
+        width: 25px;
+        height: 30px;
+        background-repeat: no-repeat;
+}
+.github {
+    background-image: url(github-icon.svg);
+    width: 25px;
+    height: 30px;
+    background-repeat: no-repeat;
+}
+.email {
+    background-image: url(email-icon.svg);
+    width: 25px;
+    height: 30px;
+    background-repeat: no-repeat;
+}

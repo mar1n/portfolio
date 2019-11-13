@@ -7,10 +7,28 @@ const Menu = () => {
             <h1>Szymon Dawidowicz</h1>
         </div>
         <div className='item'>
-            <a href='/'>Home</a>
-            <a href='/about-me'>About Me</a>
-            <a href='/skills'>Skills</a>
-            <a href='/portfoli'>My projects</a>
+            <div className='menu-container'>
+                <div className='item'>
+                    <div className='home'>
+
+                    </div>
+                </div>
+                <div className='item'>
+                    <div className='about'>
+
+                    </div>
+                </div>
+                <div className='item'>
+                    <div className='skills'>
+
+                    </div>
+                </div>
+                <div className='item'>
+                    <div className='portfolio'>
+
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 }

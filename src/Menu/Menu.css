@@ -4,3 +4,37 @@
 .menu > .item {
     flex: 1;
 }
+
+.menu-container {
+    display: flex;
+}
+.menu-container > .item {
+    flex: 1;
+}
+.home {
+    background-image: url(home-icon.svg);
+    width: 25px;
+    height: 30px;
+    background-repeat: no-repeat;
+}
+
+.about {
+    background-image: url(about-icon.svg);
+    width: 25px;
+    height: 30px;
+    background-repeat: no-repeat;
+}
+
+.skills {
+    background-image: url(skills-icon.svg);
+    width: 25px;
+    height: 30px;
+    background-repeat: no-repeat;
+}
+
+.portfolio {
+    background-image: url(project-icon.svg);
+    width: 25px;
+    height: 30px;
+    background-repeat: no-repeat;
+}
