@@ -7,20 +7,38 @@
 }
 
 .linkedin {
-        background-image: url(linkedin-icon.svg);
-        width: 25px;
-        height: 30px;
+        background-image: url(linkedin-icon-black.svg);
+        width: 48px;
+        height: 48px;
+        background-repeat: no-repeat;
+}
+.linkedin:hover {
+        background-image: url(linkedin-icon-red.svg);
+        width: 48px;
+        height: 48px;
         background-repeat: no-repeat;
 }
 .github {
-    background-image: url(github-icon.svg);
-    width: 25px;
-    height: 30px;
+    background-image: url(github-icon-black.svg);
+    width: 48px;
+    height: 48px;
+    background-repeat: no-repeat;
+}
+.github:hover {
+    background-image: url(github-icon-red.svg);
+    width: 48px;
+    height: 48px;
     background-repeat: no-repeat;
 }
 .email {
-    background-image: url(email-icon.svg);
-    width: 25px;
-    height: 30px;
+    background-image: url(email-icon-black.svg);
+    width: 48px;
+    height: 48px;
+    background-repeat: no-repeat;
+}
+.email:hover {
+    background-image: url(email-icon-red.svg);
+    width: 48px;
+    height: 48px;
     background-repeat: no-repeat;
 }
