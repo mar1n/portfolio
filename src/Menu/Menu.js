@@ -25,11 +25,6 @@ const Menu = () => {
 
                     </div>
                 </div>
-                <div className='menu-item'>
-                    <div className='portfolio'>
-
-                    </div>
-                </div>
             </div>
         </div>
     </div>
