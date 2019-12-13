@@ -1,11 +1,12 @@
 import React from 'react';
 import './Menu.css';
+import NeonText from '../neonText/NeonText'
 
 const Menu = () => {
     return <div className='menu'>
         <div className='item'>
-            <div className='left'>
-            Szymon Dawidowicz
+            <div className='neon-text'>
+                <p class='neon-name'><NeonText/></p>
             </div>
         </div>
         <div className='item'>

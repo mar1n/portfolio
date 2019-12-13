@@ -12,6 +12,19 @@
     flex: 1;
 }
 
+.neon-text {
+    overflow: hidden;
+    width: 120px;
+}
+
+.neon-name {
+    animation: marquee 5s linear infinite;
+}
+@keyframes marquee {
+    from {transform: translateX(-100%); }
+    to {transform: translateX(100%); }
+  }
+
 .home {
     background-image: url(home-icon-black.svg);
     width: 48px;

@@ -1,0 +1,262 @@
+  .neonText {
+    width: 120px;
+    height: 120px;
+  }
+  
+  .pixel {
+    width: 5px;
+    height: 5px;
+    float: left;
+  }
+
+  @keyframes lightOne {
+    10% {background: green;}
+    20% {background: blue;}
+    30% {background: violet;}
+    40% {background: orange;}
+    50% {background: yellow;}
+    60% {background: pink;}
+    70% {background: purple;}
+    80% {background: lime;}
+    90% {background: teal;}
+    100% {background: red;}
+  }
+  
+  @keyframes lightTwo {
+    10% {background: red;}
+    20% {background: green;}
+    30% {background: blue;}
+    40% {background: violet;}
+    50% {background: orange;}
+    60% {background: yellow;}
+    70% {background: pink;}
+    80% {background: purple;}
+    90% {background: lime;}
+    100% {background: teal;}
+  }
+  @keyframes lightThree {
+    10% {background: teal;}
+    20% {background: red;}
+    30% {background: green;}
+    40% {background: blue;}
+    50% {background: violet;}
+    60% {background: orange;}
+    70% {background: yellow;}
+    80% {background: pink;}
+    90% {background: purple;}
+    100% {background: lime;}
+  }
+  @keyframes lightFour {
+    10% {background: lime;}
+    20% {background: teal;}
+    30% {background: red;}
+    40% {background: green;}
+    50% {background: blue;}
+    60% {background: violet;}
+    70% {background: orange;}
+    80% {background: yellow;}
+    90% {background: pink;}
+    100% {background: purple;}
+  }
+  @keyframes lightFive {
+    10% {background: purple;}
+    20% {background: lime;}
+    30% {background: teal;}
+    40% {background: red;}
+    50% {background: green;}
+    60% {background: blue;}
+    70% {background: violet;}
+    80% {background: orange;}
+    90% {background: yellow;}
+    100% {background: pink;}
+  }
+  @keyframes lightSix {
+    10% {background: pink;}
+    20% {background: purple;}
+    30% {background: lime;}
+    40% {background: teal;}
+    50% {background: red;}
+    60% {background: green;}
+    70% {background: blue;}
+    80% {background: violet;}
+    90% {background: orange;}
+    100% {background: yellow;}
+  }
+  @keyframes lightSeven {
+    10% {background: yellow;}
+    20% {background: pink;}
+    30% {background: purple;}
+    40% {background: lime;}
+    50% {background: teal;}
+    60% {background: red;}
+    70% {background: green;}
+    80% {background: blue;}
+    90% {background: violet;}
+    100% {background: orange;}
+  }
+  @keyframes lightEight {
+    10% {background: orange;}
+    20% {background: yellow;}
+    30% {background: pink;}
+    40% {background: purple;}
+    50% {background: lime;}
+    60% {background: teal;}
+    70% {background: red;}
+    80% {background: green;}
+    90% {background: blue;}
+    100% {background: violet;}
+  }
+  @keyframes lightNine {
+    10% {background: violet;}
+    20% {background: orange;}
+    30% {background: yellow;}
+    40% {background: pink;}
+    50% {background: purple;}
+    60% {background: lime;}
+    70% {background: teal;}
+    80% {background: red;}
+    90% {background: green;}
+    100% {background: blue;}
+  }
+  @keyframes lightTen {
+    10% {background: blue;}
+    20% {background: violet;}
+    30% {background: orange;}
+    40% {background: yellow;}
+    50% {background: pink;}
+    60% {background: purple;}
+    70% {background: lime;}
+    80% {background: teal;}
+    90% {background: red;}
+    100% {background: green;}
+  }
+  
+  @keyframes mymove {
+    0%   {background-color: orange;}
+    25%  {background-color: yellow;}
+    75%  {background-color: pink;}
+    100% {background-color: green;}
+  }
+  
+  .pixel:nth-child(32) {
+    background: red;
+    animation: lightThree 5s infinite;
+  }
+  .pixel:nth-child(33) {
+    animation: lightTwo 5s infinite;
+    background: red;
+  }
+  .pixel:nth-child(34) {
+    background: red;
+    animation: lightOne 5s infinite;
+  }
+  
+  
+  .pixel:nth-child(38) {
+    animation: lightOne 5s infinite;
+    background: red;
+  }
+  .pixel:nth-child(39) {
+    animation: lightTwo 5s infinite;
+    background: red;
+  }
+  .pixel:nth-child(40) {
+    animation: lightThree 5s infinite;
+    background: red;
+  }
+  
+  .pixel:nth-child(55) {
+    animation: lightFour 5s infinite;
+    background: red;
+  }
+  
+  
+  .pixel:nth-child(64) {
+    animation: lightFour 5s infinite;
+    background: red;
+  }
+  
+  
+  .pixel:nth-child(79) {
+    animation: lightFive 5s infinite;
+    background: red;
+  }
+  
+  .pixel:nth-child(88) {
+    animation: lightSix 5s infinite;
+    background: red;
+  }
+  
+  .pixel:nth-child(103) {
+    animation: lightSix 5s infinite;
+    background: red;
+  }
+  
+  .pixel:nth-child(111) {
+    animation: lightSeven 5s infinite;
+    background: red;
+  }
+  
+  
+  .pixel:nth-child(128) {
+    animation: lightSeven 5s infinite;
+    background: red;
+  }
+  .pixel:nth-child(129) {
+    animation: lightEight 5s infinite;
+    background: red;
+  }
+  
+  .pixel:nth-child(135) {
+    animation: lightNine 5s infinite;
+    background: red;
+  }
+  
+  
+  .pixel:nth-child(154) {
+    animation: lightNine 5s infinite;
+    background: red;
+  }
+  
+  .pixel:nth-child(158) {
+    animation: lightTen 5s infinite;
+    background: red;
+  }
+  
+  .pixel:nth-child(175) {
+    animation: lightThree 5s infinite;
+    background: red;
+  }
+  
+  .pixel:nth-child(178) {
+    animation: lightTen 5s infinite;
+    background: red;
+  }
+  
+  .pixel:nth-child(182) {
+    animation: lightOne 5s infinite;
+    background: red;
+  }
+  
+  
+  .pixel:nth-child(200) {
+    animation: lightTwo 5s infinite;
+    background: red;
+  }
+  .pixel:nth-child(201) {
+    animation: lightOne 5s infinite;
+    background: red;
+  }
+  
+  .pixel:nth-child(206) {
+    animation: lightTwo 5s infinite;
+    background: red;
+  }
+  .pixel:nth-child(207) {
+    animation: lightThree 5s infinite;
+    background: red;
+  }
+  .pixel:nth-child(208) {
+    animation: lightFour 5s infinite;
+    background: red;
+  }
