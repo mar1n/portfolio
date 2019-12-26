@@ -7,7 +7,7 @@ const Menu = () => {
     return <div className='menu'>
         <div className='item'>
             <div className='neon-text'>
-                <p class='neon-name'><NeonText/></p>
+                <div className='neon-name'><NeonText/></div>
             </div>
         </div>
         <div className='item'>
