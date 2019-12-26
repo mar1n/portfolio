@@ -1,6 +1,6 @@
-import stopwatch from './img/stopwatch-icon.png';
-import team from './img/team-icon.png';
-import weather from './img/weather-icon.png';
+import stopwatch from './img/stopwatch.png';
+import team from './img/team.png';
+import weather from './img/weather.png';
 import Timer from './stopwatch/App.js';
 import React from 'react';
 

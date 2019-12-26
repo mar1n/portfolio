@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Activity from './Activity.js';
+import Aboutme from './Aboutme/AboutMe';
 import Details from './Details/Details.js';
 import Menu from './Menu/Menu.js';
 import Footer from './Footer/Footer.js';
@@ -16,10 +17,10 @@ function App() {
         <Switch>
           <Route exact path='/' component={Activity} />
           <Route exact path='/not-found' component={NotFound} />
+          <Route exact path='/aboutme' component={Aboutme} />
           <Route exact path='/:sportId' component={Details} />
         </Switch>
         <Footer />
-        
       </div >
     </Router>
   );
