@@ -18,48 +18,27 @@
 }
 
 .neon-name {
-    animation: marquee 5s linear infinite;
+    animation: teleport 5s linear infinite;
 }
-@keyframes marquee {
+@keyframes teleport {
     from {transform: translateX(-100%); }
     to {transform: translateX(100%); }
-  }
+}
 
 .home {
-    background-image: url(home-icon-black.svg);
-    width: 48px;
-    height: 48px;
-    background-repeat: no-repeat;
+
 }
 .home:hover {
-    background-image: url(home-icon-red.svg);
-    width: 48px;
-    height: 48px;
-    background-repeat: no-repeat;
+
 }
 
 .about {
-    background-image: url(man-icon-black.svg);
-    width: 48px;
-    height: 48px;
-    background-repeat: no-repeat;
+
 }
 .about:hover {
-    background-image: url(man-icon-red.svg);
-    width: 48px;
-    height: 48px;
-    background-repeat: no-repeat;
+
 }
 
 .skills {
-    background-image: url(skill-icon-black.svg);
-    width: 48px;
-    height: 48px;
-    background-repeat: no-repeat;
-}
-.skills:hover {
-    background-image: url(skill-icon-red.svg);
-    width: 48px;
-    height: 48px;
-    background-repeat: no-repeat;
+    
 }
