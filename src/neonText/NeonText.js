@@ -1,8 +1,8 @@
 import React from 'react';
 import './NeonText.css';
 
-const NeonText = () => 
-<div className="neonText">
+const NeonText = () =>
+<div>
   <div className="pixel"></div>
   <div className="pixel"></div>
   <div className="pixel"></div>
