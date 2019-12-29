@@ -19,8 +19,8 @@ const Menu = () => {
                         </div>
                     </Link>
                 </div>
-                <div className='menu-item'>
-                    <Link to={`/aboutme`} className='test'>
+                <div className='menu-item middle'>
+                    <Link to={`/aboutme`}>
                         <div className='about'>
                             About Me
                         </div>
