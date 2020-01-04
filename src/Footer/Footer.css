@@ -1,12 +1,14 @@
 .footer {
-    display: flex;
+    display: grid;
+    grid-template-columns: 50px 50px 50px;
+    justify-content: space-around;
 }
 
 .footer > .item {
-    flex: 1;
+    margin: 10px 0px 0px 0px;
 }
 .footer a  {
-    display: flex;
+    display: block;
     width: 48px;
     height: 48px;
 }

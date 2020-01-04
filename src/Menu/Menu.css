@@ -1,12 +1,11 @@
 .menu {
-    display:flex;
-}
-.menu-item {
-    flex: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .menu-item {
     padding: 0px 15px 0px 15px;
+    margin: 10px 0px 0px 0px;
 }
 
 .middle {
@@ -16,7 +15,8 @@
 }
 
 .menu-container {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .neon-text {

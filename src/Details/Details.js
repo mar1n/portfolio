@@ -27,7 +27,10 @@ export default class Details extends React.Component {
         } else {
             return (
                 <div className='Details'>
-
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
                     {this.state.sport.componentName}
 
                     <h1>{this.state.sport.name}</h1>
