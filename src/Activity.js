@@ -6,7 +6,11 @@ import Sport from './Sport.js';
 export default function Activity() {
   return (
     <div>
+      <div className='header'>
+        <h1>My Applications</h1>
+      </div>
       <div className='containter'>
+
         {
           getActivity().map(activity => (
             <Sport key={activity.name} id={activity.id} name={activity.name} picture={activity.logo} />

@@ -19,6 +19,10 @@
     grid-template-columns: 1fr 1fr 1fr;
 }
 
+.menu-container {
+    text-align: center;
+}
+
 .neon-text {
     overflow: hidden;
     width: 120px;
@@ -33,7 +37,9 @@
 }
 
 
-
+a {
+    text-decoration: none;
+}
 a:link {color: inherit;}
 a:active {color: inherit;}
 a:visited {color: inherit;}
