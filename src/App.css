@@ -4,6 +4,11 @@ body {
 .header h1 {
   text-align: center;
   margin: 10px 0px 0px 0px;
+  border-style: dashed none dashed none;
+  width: 80%;
+  margin: 0 auto;
+  border-width: thin;
+  padding: 5px 0px 5px 0px;
 }
 
 /* .App {

@@ -1,6 +1,9 @@
 .menu {
+    width: 80%;
+    margin:  0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding: 0px 0px 5px 0px;
 }
 
 .menu-item {
