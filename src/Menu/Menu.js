@@ -1,13 +1,13 @@
 import React from 'react';
 import './Menu.css';
-import NeonText from '../neonText/NeonText'
+import LedScreen from '../LedScreen/LedScreen'
 import { Link } from 'react-router-dom';
 
 const Menu = () => {
     return <div className='menu'>
         <div className='item'>
-            <div className='neon-text'>
-                <div className='neon-name'><NeonText /></div>
+            <div className='screen'>
+                <div className='led-screen'><LedScreen /></div>
             </div>
         </div>
         <div className='item'>

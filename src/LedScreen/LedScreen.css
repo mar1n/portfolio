@@ -1,0 +1,389 @@
+.led {
+    height: 5px;
+    width: 5px;
+    border-radius: 10px;
+    margin: 5px;
+    margin-bottom: 0px;
+    float: left;
+}
+
+/* Letter S */
+.led:nth-child(2) {
+    background-color: red;
+    box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, .75);
+}
+.led:nth-child(3) {
+    background-color: red;
+    box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, .75);
+}
+.led:nth-child(4) {
+    background-color: red;
+    box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, .75);
+}
+.led:nth-child(41) {
+    background-color: red;
+    box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, .75);
+}
+.led:nth-child(45) {
+    background-color: red;
+    box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, .75);
+}
+.led:nth-child(81) {
+    background-color: red;
+    box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, .75);
+}
+.led:nth-child(122) {
+    background-color: red;
+    box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, .75);
+}
+.led:nth-child(123) {
+    background-color: red;
+    box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, .75);
+}
+.led:nth-child(124) {
+    background-color: red;
+    box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, .75);
+}
+.led:nth-child(165) {
+    background-color: red;
+    box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, .75);
+}
+.led:nth-child(201) {
+    background-color: red;
+    box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, .75);
+}
+.led:nth-child(205) {
+    background-color: red;
+    box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, .75);
+}
+.led:nth-child(242) {
+    background-color: red;
+    box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, .75);
+}
+.led:nth-child(243) {
+    background-color: red;
+    box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, .75);
+}
+.led:nth-child(244) {
+    background-color: red;
+    box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, .75);
+}
+
+
+/* Letter Z */
+.led:nth-child(8) {
+    background-color: red;
+    box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, .75);
+}
+.led:nth-child(9) {
+    background-color: red;
+    box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, .75);
+}
+.led:nth-child(10) {
+    background-color: red;
+    box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, .75);
+}
+.led:nth-child(11) {
+    background-color: red;
+    box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, .75);
+}
+.led:nth-child(12) {
+    background-color: red;
+    box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, .75);
+}
+.led:nth-child(52) {
+    background-color: red;
+    box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, .75);
+}
+.led:nth-child(91) {
+    background-color: red;
+    box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, .75);
+}
+.led:nth-child(130) {
+    background-color: red;
+    box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, .75);
+}
+.led:nth-child(169) {
+    background-color: red;
+    box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, .75);
+}
+.led:nth-child(208) {
+    background-color: red;
+    box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, .75);
+}
+.led:nth-child(248) {
+    background-color: red;
+    box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, .75);
+}
+.led:nth-child(249) {
+    background-color: red;
+    box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, .75);
+}
+.led:nth-child(250) {
+    background-color: red;
+    box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, .75);
+}
+.led:nth-child(251) {
+    background-color: red;
+    box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, .75);
+}
+.led:nth-child(252) {
+    background-color: red;
+    box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, .75);
+}
+
+/* Letter Y */
+.led:nth-child(15) {
+    background-color: red;
+    box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, .75);
+}
+.led:nth-child(19) {
+    background-color: red;
+    box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, .75);
+}
+.led:nth-child(55) {
+    background-color: red;
+    box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, .75);
+}
+.led:nth-child(59) {
+    background-color: red;
+    box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, .75);
+}
+.led:nth-child(95) {
+    background-color: red;
+    box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, .75);
+}
+.led:nth-child(99) {
+    background-color: red;
+    box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, .75);
+}
+.led:nth-child(136) {
+    background-color: red;
+    box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, .75);
+}
+.led:nth-child(138) {
+    background-color: red;
+    box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, .75);
+}
+.led:nth-child(177) {
+    background-color: red;
+    box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, .75);
+}
+.led:nth-child(217) {
+    background-color: red;
+    box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, .75);
+}
+.led:nth-child(257) {
+    background-color: red;
+    box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, .75);
+}
+
+/* Letter M */
+.led:nth-child(22) {
+    background-color: red;
+    box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, .75);
+}
+.led:nth-child(26) {
+    background-color: red;
+    box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, .75);
+}
+.led:nth-child(62) {
+    background-color: red;
+    box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, .75);
+}
+.led:nth-child(63) {
+    background-color: red;
+    box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, .75);
+}
+.led:nth-child(65) {
+    background-color: red;
+    box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, .75);
+}
+.led:nth-child(66) {
+    background-color: red;
+    box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, .75);
+}
+.led:nth-child(102) {
+    background-color: red;
+    box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, .75);
+}
+.led:nth-child(104) {
+    background-color: red;
+    box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, .75);
+}
+.led:nth-child(106) {
+    background-color: red;
+    box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, .75);
+}
+.led:nth-child(142) {
+    background-color: red;
+    box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, .75);
+}
+.led:nth-child(144) {
+    background-color: red;
+    box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, .75);
+}
+.led:nth-child(146) {
+    background-color: red;
+    box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, .75);
+}
+.led:nth-child(182) {
+    background-color: red;
+    box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, .75);
+}
+.led:nth-child(186) {
+    background-color: red;
+    box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, .75);
+}
+.led:nth-child(222) {
+    background-color: red;
+    box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, .75);
+}
+.led:nth-child(226) {
+    background-color: red;
+    box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, .75);
+}
+.led:nth-child(262) {
+    background-color: red;
+    box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, .75);
+}
+.led:nth-child(266) {
+    background-color: red;
+    box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, .75);
+}
+
+/* Letter O */
+.led:nth-child(30) {
+    background-color: red;
+    box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, .75);
+}
+.led:nth-child(31) {
+    background-color: red;
+    box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, .75);
+}
+.led:nth-child(32) {
+    background-color: red;
+    box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, .75);
+}
+.led:nth-child(69) {
+    background-color: red;
+    box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, .75);
+}
+.led:nth-child(73) {
+    background-color: red;
+    box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, .75);
+}
+.led:nth-child(109) {
+    background-color: red;
+    box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, .75);
+}
+.led:nth-child(113) {
+    background-color: red;
+    box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, .75);
+}
+.led:nth-child(149) {
+    background-color: red;
+    box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, .75);
+}
+.led:nth-child(153) {
+    background-color: red;
+    box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, .75);
+}
+.led:nth-child(189) {
+    background-color: red;
+    box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, .75);
+}
+.led:nth-child(193) {
+    background-color: red;
+    box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, .75);
+}
+.led:nth-child(229) {
+    background-color: red;
+    box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, .75);
+}
+.led:nth-child(233) {
+    background-color: red;
+    box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, .75);
+}
+.led:nth-child(270) {
+    background-color: red;
+    box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, .75);
+}
+.led:nth-child(271) {
+    background-color: red;
+    box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, .75);
+}
+.led:nth-child(272) {
+    background-color: red;
+    box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, .75);
+}
+
+/* Letter N */
+.led:nth-child(36) {
+    background-color: red;
+    box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, .75);
+}
+.led:nth-child(40) {
+    background-color: red;
+    box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, .75);
+}
+.led:nth-child(76) {
+    background-color: red;
+    box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, .75);
+}
+.led:nth-child(80) {
+    background-color: red;
+    box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, .75);
+}
+.led:nth-child(116) {
+    background-color: red;
+    box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, .75);
+}
+.led:nth-child(117) {
+    background-color: red;
+    box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, .75);
+}
+.led:nth-child(120) {
+    background-color: red;
+    box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, .75);
+}
+.led:nth-child(156) {
+    background-color: red;
+    box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, .75);
+}
+.led:nth-child(158) {
+    background-color: red;
+    box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, .75);
+}
+.led:nth-child(160) {
+    background-color: red;
+    box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, .75);
+}
+.led:nth-child(196) {
+    background-color: red;
+    box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, .75);
+}
+.led:nth-child(199) {
+    background-color: red;
+    box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, .75);
+}
+.led:nth-child(200) {
+    background-color: red;
+    box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, .75);
+}
+.led:nth-child(236) {
+    background-color: red;
+    box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, .75);
+}
+.led:nth-child(240) {
+    background-color: red;
+    box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, .75);
+}
+.led:nth-child(276) {
+    background-color: red;
+    box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, .75);
+}
+.led:nth-child(280) {
+    background-color: red;
+    box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, .75);
+}

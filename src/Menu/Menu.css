@@ -4,6 +4,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 0px 0px 5px 0px;
+    justify-content: center;
+    align-items: center;
 }
 
 .menu-item {
@@ -26,17 +28,18 @@
     text-align: center;
 }
 
-.neon-text {
+.screen {
+    width: 600px;
+    background-image: url(offLight.png);
     overflow: hidden;
-    width: 120px;
 }
 
-.neon-name {
+.led-screen {
     animation: teleport 5s linear infinite;
 }
 @keyframes teleport {
-    from {transform: translateX(-100%); }
-    to {transform: translateX(100%); }
+    from {transform: translateX(100%); }
+    to {transform: translateX(-100%); }
 }
 
 
