@@ -32,10 +32,12 @@
     width: 600px;
     background-image: url(offLight.png);
     overflow: hidden;
+    margin: auto;
 }
 
 .led-screen {
     animation: teleport 5s linear infinite;
+    width: 600px;
 }
 @keyframes teleport {
     from {transform: translateX(100%); }
@@ -84,4 +86,24 @@ a:hover {
 .skills:hover {
     background-color: #ebebeb;
     border-radius: 5px;
+}
+
+@media only screen and (max-device-width: 768px) {
+    .menu {
+        grid-template-columns: 1fr;
+
+    }
+    .screen {
+        width:500px;
+    }
+}
+
+@media only screen and (max-device-width: 480px) {
+    .menu {
+        grid-template-columns: 1fr;
+        
+    }
+    .screen {
+        width:300px;
+    }
 }
