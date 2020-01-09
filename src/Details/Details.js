@@ -2,8 +2,6 @@ import React from 'react';
 import { Link, Redirect } from 'react-router-dom';
 import getactivity from '../activity-get';
 import './Details.css';
-// eslint-disable-next-line
-import Timer from '../stopwatch/App.js';
 
 export default class Details extends React.Component {
 
@@ -27,21 +25,18 @@ export default class Details extends React.Component {
         } else {
             return (
                 <div className='Details'>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    {this.state.sport.componentName}
-
                     <h1>{this.state.sport.name}</h1>
-                    <div className='content'>
-                        <div className='text'>
-                            {this.state.sport.details}
-                        </div>
-                        <img
+                    <div className='underBar'></div>
+                    <img
                             className='image'
                             src={this.state.sport.logo}
                             alt={this.state.sport.name} />
+                    <div className='content'>
+
+                        <div className='text'>
+                            {this.state.sport.details}
+                        </div>
+
                     </div>
                     <Link to='/'>
                         <div className='backtohome'>
