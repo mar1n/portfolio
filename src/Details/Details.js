@@ -25,24 +25,25 @@ export default class Details extends React.Component {
         } else {
             return (
                 <div className='Details'>
-                    <h1>{this.state.sport.name}</h1>
+                    
+                    <div className='demo-link' ><a className='demo-button' href='http://google.co.uk'>Demo {this.state.sport.name} app</a></div>
                     <div className='underBar'></div>
                     <img
                             className='image'
                             src={this.state.sport.logo}
                             alt={this.state.sport.name} />
+                    <h1>{this.state.sport.name} app</h1>
                     <div className='content'>
-
+                    
                         <div className='text'>
-                            {this.state.sport.details}
+                            <p>{this.state.sport.details}</p>
                         </div>
-
                     </div>
-                    <Link to='/'>
+                    {/* <Link to='/'>
                         <div className='backtohome'>
                             
                         </div>
-                    </Link>
+                    </Link> */}
                 </div>
             );
         }

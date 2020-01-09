@@ -7,7 +7,30 @@
 .Details .image {
     display: block;
     margin: 0 auto;
+    padding: 15px;
 }
+.Details h1 {
+    text-align: center;
+}
+.demo-link {
+    margin: 10px 0px 10px 0px;
+}
+.demo-button {
+    background-image: linear-gradient(to bottom, silver, white);
+    display: table;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-weight: bold;
+    margin: auto;
+}
+.demo-button:hover {
+    opacity: 0.5;
+}
+
+
+.btn-grad {}
+.btn-grad:hover {  }
 /* a {
     text-align: center;
     position: relative;
@@ -47,12 +70,8 @@ a:before{
     display: flex;
 }
 
-.Details .content .text ,
-.Details .content .image {
-    padding: 15px;
+.Details .text {
     text-align: justify;
-    text-justify: distribute;
-    word-break: break-all;
 }
 
 .Details img {
