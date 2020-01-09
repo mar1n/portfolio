@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, Redirect } from 'react-router-dom';
+import { Redirect } from 'react-router-dom';
 import getactivity from '../activity-get';
 import './Details.css';
 
@@ -39,22 +39,8 @@ export default class Details extends React.Component {
                             <p>{this.state.sport.details}</p>
                         </div>
                     </div>
-                    {/* <Link to='/'>
-                        <div className='backtohome'>
-                            
-                        </div>
-                    </Link> */}
                 </div>
             );
         }
-
     }
 }
-
-// export default function Details() {
-//     return(
-//         <Link to='/'>
-//             <h1>Welcome to the details page, WIP :)</h1>
-//         </Link>
-//     );
-// }

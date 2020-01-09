@@ -1,6 +1,6 @@
 import React from 'react';
 import './Skills.css';
-
-const Skill = () => <><div>Skill</div></>
+import css from './css3.png';
+const Skill = () => <><div><img src={css} alt='test' /></div></>
 
 export default Skill;
