@@ -28,7 +28,7 @@ const Menu = () => {
                 </div>
                 <div className='menu-item'>
                     <Link to={`/skills`} >
-                        <div className='skills'>
+                        <div className='menu-skills'>
                             Skills
                         </div>
                     </Link>

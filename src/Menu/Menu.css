@@ -59,31 +59,31 @@ a:hover {
     padding: 5px 0px 5px 0px;
 }
 
-.home {
+.menu .home {
     transition: background .5s ease-in-out;
     border-radius: 5px;
 }
 
-.home:hover {
+.menu .home:hover {
     background-color: #ebebeb;
     border-radius: 5px;
 }
 
-.about {
+.menu .about {
     transition: background .5s ease-in-out;
     border-radius: 5px;
 }
-.about:hover {
+.menu .about:hover {
     background-color: #ebebeb;
     border-radius: 5px;
 }
 
-.skills {
+.menu .menu-skills {
     transition: background .5s ease-in-out;
     border-radius: 5px;
 }
 
-.skills:hover {
+.menu .menu-skills:hover {
     background-color: #ebebeb;
     border-radius: 5px;
 }

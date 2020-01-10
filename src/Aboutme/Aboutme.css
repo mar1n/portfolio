@@ -1,0 +1,11 @@
+.aboutme h1 {
+    text-align: center;
+}
+.aboutme h2 {
+    text-align: center;
+}
+.aboutme img {
+    width: 80%;
+    height: 80%;
+    margin: auto;
+}
