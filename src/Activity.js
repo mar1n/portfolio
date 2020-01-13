@@ -7,7 +7,7 @@ export default function Activity() {
   return (
     <div>
       <div className='header'>
-        <h1>My Applications</h1>
+        <h1>My Apps</h1>
       </div>
       <div className='containter'>
 

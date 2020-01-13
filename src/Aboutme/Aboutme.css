@@ -9,6 +9,7 @@
 
 .aboutme-item h1 {
     text-align: center;
+    font-family: blacklettersh;
 }
 .aboutme p {
     text-align: justify;
@@ -28,8 +29,11 @@
         width: 70%;
     }
 }
-
-
+  
+  @font-face {
+    font-family: blacklettersh;
+    src: url(../font/BLACEB__.TTF);
+  }
 /* main {
     display: grid;
     grid-gap: 8%;

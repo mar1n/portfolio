@@ -3,6 +3,12 @@
   padding: 0;
   text-align: center;
   margin: 0px 0px 10px 0px;
+  font-family: blacklettersh;
+}
+
+@font-face {
+  font-family: blacklettersh;
+  src: url(./font/BLACEB__.TTF);
 }
 
 img {
@@ -16,11 +22,11 @@ img {
 }
 
 .item-content {
-  flex: 1;
   padding: 40px;
   position: relative;
   overflow: hidden;
 }
+
 
 .place {
   position: relative;

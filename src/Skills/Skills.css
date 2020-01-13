@@ -7,6 +7,7 @@
 }
 .skill-item h3 {
     text-align: center;
+    font-family: blacklettersh;
     margin: 10px 0px 10px 0px;
 }
 .skill-item img {
@@ -14,6 +15,11 @@
     width: 150px;
     height: 150px;
 }
+
+@font-face {
+    font-family: blacklettersh;
+    src: url(../font/BLACEB__.TTF);
+  }
 
 @media (max-width: 480px) {
     .skills {

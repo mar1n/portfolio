@@ -12,7 +12,14 @@
 .Details h1 {
     text-align: center;
     margin: 5px 0px 5px 0px;
+    font-family: blacklettersh;
 }
+
+  
+  @font-face {
+    font-family: blacklettersh;
+    src: url(../font/BLACEB__.TTF);
+  }
 .demo-link {
     margin: 10px 0px 10px 0px;
 }
