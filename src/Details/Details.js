@@ -26,7 +26,7 @@ export default class Details extends React.Component {
             return (
                 <div className='Details'>
                     
-                    <div className='demo-link' ><a className='demo-button' href='http://google.co.uk'>Demo {this.state.sport.name} app</a></div>
+                    <div className='demo-link' ><a className='demo-button' href={this.state.sport.address}>Demo {this.state.sport.name} app</a></div>
                     <div className='underBar'></div>
                     <img
                             className='image'
