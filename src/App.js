@@ -14,15 +14,19 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <Menu />
-        <Switch>
-          <Route exact path='/' component={Activity} />
-          <Route exact path='/not-found' component={NotFound} />
-          <Route exact path='/aboutme' component={Aboutme} />
-          <Route exact path='/skills' component={Skills} />
-          <Route exact path='/:sportId' component={Details} />
-        </Switch>
-        <Footer />
+        <nav><Menu /></nav>
+        <main>
+          <Switch>
+
+            <Route exact path='/' component={Activity} />
+            <Route exact path='/not-found' component={NotFound} />
+            <Route exact path='/aboutme' component={Aboutme} />
+            <Route exact path='/skills' component={Skills} />
+            <Route exact path='/:sportId' component={Details} />
+
+          </Switch>
+        </main>
+        <footer><Footer /></footer>
       </div >
     </Router>
   );

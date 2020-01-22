@@ -5,7 +5,7 @@ import Sport from './Sport.js';
 
 export default function Activity() {
   return (
-    <div>
+    <section>
       <div className='header'>
         <h1>My Apps</h1>
       </div>
@@ -17,7 +17,7 @@ export default function Activity() {
           ))
         }
       </div>
-    </div>
+    </section>
   );
 }
 

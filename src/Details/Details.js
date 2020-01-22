@@ -24,22 +24,24 @@ export default class Details extends React.Component {
             return <Redirect to='/not-found' />;
         } else {
             return (
-                <div className='Details'>
-                    
-                    <div className='demo-link' ><a className='demo-button' href={this.state.sport.address}>Demo {this.state.sport.name} app</a></div>
-                    <div className='underBar'></div>
-                    <img
+                <section>
+                    <div className='Details'>
+
+                        <div className='demo-link' ><a className='demo-button' href={this.state.sport.address}>Demo {this.state.sport.name} app</a></div>
+                        <div className='underBar'></div>
+                        <img
                             className='image'
                             src={this.state.sport.logo}
                             alt={this.state.sport.name} />
-                    <h1>{this.state.sport.name} app</h1>
-                    <div className='content'>
-                    
-                        <div className='text'>
-                            <p>{this.state.sport.details}</p>
+                        <h1>{this.state.sport.name} app</h1>
+                        <div className='content'>
+
+                            <div className='text'>
+                                <p>{this.state.sport.details}</p>
+                            </div>
                         </div>
                     </div>
-                </div>
+                </section>
             );
         }
     }
