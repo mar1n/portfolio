@@ -37,6 +37,14 @@ export default class Details extends React.Component {
                         <div className='content'>
 
                             <div className='text'>
+                                <h3>Technology:</h3>
+                                <ul>
+                                    <li>HTML5</li>
+                                    <li>CSS3</li>
+                                    <li>JavaScript</li>
+                                    <li>React</li>
+                                </ul>
+                                <h3>Description:</h3>
                                 <p>{this.state.sport.details}</p>
                             </div>
                         </div>
