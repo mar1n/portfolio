@@ -8,10 +8,10 @@ export default function Sport(props) {
             <h2>{props.name}</h2>
             <div className='place'>
                 <div className="box">
+                    {/* <span></span>
                     <span></span>
                     <span></span>
-                    <span></span>
-                    <span></span>
+                    <span></span> */}
                     <img src={props.picture} alt={`${props.name} + logo`} />
                 </div>
             </div>

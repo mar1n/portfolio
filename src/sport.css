@@ -23,22 +23,22 @@ img {
 
 .item-content {
   padding: 40px;
-  position: relative;
+
   overflow: hidden;
 }
 
 
 .place {
-  position: relative;
+
   height: 30vw;
   grid-row-start: 1;
 }
 
 .box {
-position: absolute;
+
 top: 50%;
 left: 50%;
-transform: translate(-50%, -50%);
+
 width: 31vw;
 height: 31vw;
 box-sizing: border-box;
@@ -47,7 +47,7 @@ color: white;
 padding: 20px;
 }
 
-.box:before{
+/* .box:before{
 content: '';
 position:absolute;
 top:0;
@@ -130,4 +130,4 @@ animation: animate 4s linear infinite;
   }
   
   
-} 
+}  */
