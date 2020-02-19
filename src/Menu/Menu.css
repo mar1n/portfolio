@@ -46,18 +46,28 @@ nav {
     animation: teleport 5s linear infinite;
     width: 600px;
 }
+
 @keyframes teleport {
     from {transform: translateX(100%); }
     to {transform: translateX(-100%); }
 }
 
-
 a {
     text-decoration: none;
 }
-a:link {color: inherit;}
-a:active {color: inherit;}
-a:visited {color: inherit;}
+
+a:link {
+    color: inherit;
+}
+
+a:active {
+    color: inherit;
+}
+
+a:visited {
+    color: inherit;
+}
+
 a:hover {
     color: inherit;
 }
