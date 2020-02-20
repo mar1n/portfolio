@@ -14,9 +14,6 @@
 .aboutme p {
     text-align: justify;
 }
-.aboutme h2 {
-    text-align: center;
-}
 
 @media (max-width: 768px) {
     .aboutme {

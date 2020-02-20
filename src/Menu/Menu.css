@@ -1,9 +1,8 @@
 nav {
     position: sticky;
-  top: 0;
-  width: 100%;
+    top: 0;
+     width: 100%;
     background-color: white;
-
 }
 .menu {
     width: 80%;
@@ -56,19 +55,7 @@ a {
     text-decoration: none;
 }
 
-a:link {
-    color: inherit;
-}
-
-a:active {
-    color: inherit;
-}
-
-a:visited {
-    color: inherit;
-}
-
-a:hover {
+a:link, a:active, a:visited, a:hover {
     color: inherit;
 }
 
@@ -76,31 +63,12 @@ a:hover {
     padding: 5px 0px 5px 0px;
 }
 
-.menu .home {
+.menu .home, .about, .skill {
     transition: background .5s ease-in-out;
     border-radius: 5px;
 }
 
-.menu .home:hover {
-    background-color: #ebebeb;
-    border-radius: 5px;
-}
-
-.menu .about {
-    transition: background .5s ease-in-out;
-    border-radius: 5px;
-}
-.menu .about:hover {
-    background-color: #ebebeb;
-    border-radius: 5px;
-}
-
-.menu .menu-skills {
-    transition: background .5s ease-in-out;
-    border-radius: 5px;
-}
-
-.menu .menu-skills:hover {
+.menu .home:hover, .about:hover, .skill:hover {
     background-color: #ebebeb;
     border-radius: 5px;
 }
