@@ -89,6 +89,6 @@ a:link, a:active, a:visited, a:hover {
         
     }
     .screen {
-        width:300px;
+        width:100vw;
     }
 }
