@@ -6,11 +6,11 @@ export default function Sport(props) {
 
         <Link to={`/${props.id}`} className='item-content'>
             <h2>{props.name}</h2>
-            <div className='place'>
+
                 <div className="box">
                     <img src={props.picture} alt={`${props.name} + logo`} />
                 </div>
-            </div>
+            
         </Link>
     );
 }
