@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './sport.css';
-export default function Sport(props) {
+import './Project.css';
+export default function Project(props) {
     return (
 
         <Link to={`/${props.id}`} className='item-content'>

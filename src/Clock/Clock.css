@@ -1,0 +1,27 @@
+.mainContainer {
+    width: 80%;
+    margin: 0 auto;
+    height: 17px;
+    position: sticky;
+    overflow: hidden;
+    padding: 2px 0px 0px 20px;
+}
+
+.mainSlide {
+    display: grid;
+    justify-content: left;
+    animation: rolles 10s linear infinite 1s;
+}
+.timeZone {
+    height: 20px;
+}
+
+@keyframes rolles {
+    0% { transform: translateY(0px)}
+    25% { transform: translateY(0px)}
+    30% { transform: translateY(-21px)}
+    60% { transform: translateY(-21px)}
+    65% { transform: translateY(-41px)}
+    95% { transform: translateY(-41px)}
+    100% { transform: translateY(-60px)}
+}
