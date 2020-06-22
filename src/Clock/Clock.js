@@ -27,7 +27,7 @@ export default function Clock() {
 
   useEffect(() => {
     const thick = () => {
-      setClock(
+      setClock(clock =>
         clock.map((clock) => {
           let szymon = new Date().toLocaleString("en-US", {
             timeZone: clock.timezone,
@@ -37,6 +37,8 @@ export default function Clock() {
       );
     };
     setInterval(() => thick(), 1000);
+    return () => clearInterval(thick);
+
   }, []);
 
   return (

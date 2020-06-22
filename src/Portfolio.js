@@ -10,7 +10,6 @@ export default function Portfolio() {
         <h1>My Apps</h1>
       </div>
       <div className='containter'>
-
         {
           getProject().map(activity => (
             <Project key={activity.name} id={activity.id} name={activity.name} picture={activity.logo} />
