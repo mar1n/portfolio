@@ -1,3 +1,12 @@
+.clock {
+    background-color: #fff;
+    width: 100%;
+    height: 20px;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
 .mainContainer {
     width: 80%;
     margin: 0 auto;
