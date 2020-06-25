@@ -51,47 +51,32 @@
     fill: none;
     stroke: #cccccc;
     stroke-width: 0.8;
-    stroke-dasharray: 150px;
-    stroke-dashoffset: 150px;
+    stroke-dasharray: 150;
+    stroke-dashoffset: 450;
     animation: move 2s linear infinite 0s;
   }
   @keyframes move {
-    100% {
-      stroke-dashoffset: -150;
+    form {
+      stroke-dashoffset: 150;
     }
-  }
-  @-webkit-keyframes move {
-    100% {
-      -webkit-stroke-dashoffset: -150;
-    }
-  }
-  @-moz-keyframes move {
-    100% {
-      -webkit-stroke-dashoffset: -150;
+    to {
+      stroke-dashoffset: 150;
     }
   }
   .lineTwo {
     fill: none;
     stroke: #cccccc;
     stroke-width: 0.8;
-    stroke-dasharray: 100px;
-    stroke-dashoffset: 100px;
-    animation: move2 2s linear infinite 0s;
-  }
-  @-webkit-keyframes move2 {
-    90% {
-      -webkit-stroke-dashoffset: -100;
-    }
-    100% {
-      -webkit-stroke-dashoffset: -100;
-    }
+    stroke-dasharray: 100;
+    stroke-dashoffset: 300;
+    animation: move2 2s linear infinite;
   }
   @keyframes move2 {
     90% {
-      stroke-dashoffset: -100;
+      stroke-dashoffset: 100;
     }
     100% {
-      stroke-dashoffset: -100;
+      stroke-dashoffset: 100;
     }
   }
 .lineThird {
@@ -110,14 +95,6 @@
       stroke-dashoffset: 300px;
     }
   }
-  @-webkit-keyframes move3 {
-    87% {
-      -webkit-stroke-dashoffset: 300px;
-    }
-    100% {
-      -webkit-stroke-dashoffset: 300px;
-    }
-  }
 .lineFourth {
     fill: none;
     stroke: #cccccc;
@@ -125,14 +102,6 @@
     stroke-dasharray: 100px;
     stroke-dashoffset: 100px;
     animation: move4 2s linear infinite 0s;
-  }
-  @-webkit-keyframes move4 {
-    25% {
-      -webkit-stroke-dashoffset: 100px;
-    }
-    100% {
-      -webkit-stroke-dashoffset: 300px;
-    }
   }
   @keyframes move4 {
     25% {
@@ -155,23 +124,6 @@
     stroke-dashoffset: 0;
     stroke-opacity: 1;
     animation: opacityUp 2s linear infinite 0s;
-  }
-  @-webkit-keyframes opacityUp {
-    25% {
-      -webkit-stroke-width: 1;
-      -webkit-fill-opacity: 1;
-      -webkit-stroke-opacity: 1;
-    }
-    75% {
-      -webkit-stroke-width: 2;
-      -webkit-fill-opacity: 1;
-      -webkit-stroke-opacity: 1;
-    }
-    100% {
-      -webkit-stroke-width: 1;
-      -webkit-fill-opacity: 1;
-      -webkit-stroke-opacity: 1;
-    }
   }
   @keyframes opacityUp {
     25% {
