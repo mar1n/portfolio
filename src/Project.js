@@ -5,14 +5,10 @@ import Animation from "./Animation/Animation";
 
 export default function Project(props) {
   return (
-    <div>
+    <div className="projectItem">
       <Link to={`/${props.id}`} className="item-content">
-        <h2>{props.name}</h2>
-        <div className="box">
-          <img src={props.picture} alt={`${props.name} + logo`} />
-        </div>
+        <Animation name={props.name} />
       </Link>
-      <Animation />
     </div>
   );
 }
