@@ -1,16 +1,3 @@
- /*.item-content h2 {
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  margin: 0px 0px 10px 0px;
-  font-family: blacklettersh;
-}
-
-@font-face {
-  font-family: blacklettersh;
-  src: url(./font/BLACEB__.TTF);
-} */
-
 img {
   width: 100%;
   height: 100%;
@@ -25,14 +12,6 @@ img {
   padding: 40px;
 } 
 
-/* .box {
-width: 100%;
-height: 31vw;
-box-sizing: border-box;
-color: white;
-padding: 20px;
-} */
-
 @media (max-width: 768px) {
   .containter {
     grid-template-columns: 2fr;
@@ -42,10 +21,6 @@ padding: 20px;
   .containter {
     grid-template-columns: 1fr;
   }
-  /* .box {
-    height: 50vw;
-    padding: 0;
-  } */
   .item-content {
     padding: 40px 40px 0px 40px;
   }

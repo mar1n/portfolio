@@ -12,7 +12,7 @@
     font-family: blacklettersh;
 }
 .aboutme p {
-    text-align: justify;
+    text-align: left;
 }
 
 @media (max-width: 768px) {
