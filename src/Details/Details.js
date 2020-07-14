@@ -9,14 +9,14 @@ export default class Details extends React.Component {
         super();
 
         this.state = {
-            sport: {}
+            sport: {},
+            test: [2,3,4],
         };
     }
 
     componentDidMount() {
         let sportId = this.props.match.params.sportId;
-        let sport = getactivity()
-            .find((activity) => activity.id === sportId);
+        let sport = getactivity().find((activity) => activity.id === sportId);
         this.setState({ sport });
     }
     render() {
@@ -38,11 +38,9 @@ export default class Details extends React.Component {
 
                             <div className='text'>
                                 <h3>Technology:</h3>
+            
                                 <ul>
-                                    <li>HTML5</li>
-                                    <li>CSS3</li>
-                                    <li>JavaScript</li>
-                                    <li>React</li>
+                                {this.state.sport.tech && this.state.sport.tech.map((t, index) => <li key={index}>{t}</li>)}
                                 </ul>
                                 <h3>Description:</h3>
                                 <p>{this.state.sport.details}</p>

@@ -6,6 +6,8 @@ import Mysql from './Skills/mysql.png';
 import Php from './Skills/php.png';
 import React from './Skills/react.png';
 import Node from './Skills/node.png';
+import Typescript from './Skills/typescript.png';
+import AmazonEC2 from './Skills/amazonEC2.png';
 
 export default function getSkill() {
     return [
@@ -17,5 +19,7 @@ export default function getSkill() {
         {name: 'PHP', image: Php },
         {name: 'REACT', image: React },
         {name: 'NODE', image: Node },
+        {name: 'Typescript', image: Typescript },
+        {name: 'Amazon EC2', image: AmazonEC2 },
     ]
 }
