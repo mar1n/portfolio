@@ -36,11 +36,11 @@ export default class Details extends React.Component {
                         <h1>{this.state.sport.name} app</h1>
                         <div className='content'>
 
-                            <div className='text'>
+                            <div className='info'>
                                 <h3>Technology:</h3>
             
                                 <ul>
-                                {this.state.sport.tech && this.state.sport.tech.map((t, index) => <li key={index}>{t}</li>)}
+                                {this.state.sport.tech && this.state.sport.tech.map((t, index) => <li key={index} className="tech-items">{t}</li>)}
                                 </ul>
                                 <h3>Description:</h3>
                                 <p>{this.state.sport.details}</p>
