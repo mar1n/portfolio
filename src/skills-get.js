@@ -8,6 +8,7 @@ import React from './Skills/react.png';
 import Node from './Skills/node.png';
 import Typescript from './Skills/typescript.png';
 import AmazonEC2 from './Skills/amazonEC2.png';
+import Storybook from './Skills/storybook.png'
 
 export default function getSkill() {
     return [
@@ -21,5 +22,6 @@ export default function getSkill() {
         {name: 'NODE', image: Node },
         {name: 'Typescript', image: Typescript },
         {name: 'Amazon EC2', image: AmazonEC2 },
+        {name: 'Storybook', image: Storybook },
     ]
 }
