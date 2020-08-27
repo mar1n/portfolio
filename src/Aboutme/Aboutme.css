@@ -2,8 +2,12 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 15px;
-    width: 65%;
+    justify-items: center;
     margin: auto;
+}
+
+.aboutme img {
+    border-radius: 10px;
 }
 
 
@@ -13,17 +17,16 @@
 }
 .aboutme p {
     text-align: left;
+    padding: 15px;
 }
 
 @media (max-width: 768px) {
     .aboutme {
-        width: 80%;
     }
 }
 @media (max-width: 480px) {
     .aboutme {
         grid-template-columns: 1fr;
-        width: 70%;
     }
 }
   

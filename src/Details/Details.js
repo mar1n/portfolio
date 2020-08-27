@@ -1,6 +1,6 @@
 import React from 'react';
 import { Redirect } from 'react-router-dom';
-import getactivity from '../project-get';
+import getactivity from '../Content/project-get';
 import './Details.css';
 
 export default class Details extends React.Component {
@@ -20,35 +20,40 @@ export default class Details extends React.Component {
         this.setState({ sport });
     }
     render() {
-        if (this.state.sport === undefined) {
-            return <Redirect to='/not-found' />;
-        } else {
-            return (
-                <section>
-                    <div className='Details'>
+        return(
+            this.state.sport ?
+                this.state.sport.name ?
+               ( <section>
+                <div className='Details'>
 
-                        <div className='demo-link' ><a className='demo-button' href={this.state.sport.address}>Demo {this.state.sport.name} app</a></div>
-                        <div className='underBar'></div>
-                        <img
-                            className='image'
-                            src={this.state.sport.logo}
-                            alt={this.state.sport.name} />
-                        <h1>{this.state.sport.name} app</h1>
-                        <div className='content'>
+                    <div className='demo-link' ><a className='demo-button' href={this.state.sport.address}>Demo {this.state.sport.name} app</a></div>
+                    <div className='underBar'></div>
+                    <img
+                        className='image'
+                        srcset={`${require(`../img/${this.state.sport.logo}-320w.png`)} 320w,
+                        ${require(`../img/${this.state.sport.logo}-480w.png`)} 480w,
+                        ${require(`../img/${this.state.sport.logo}-800w.png`)} 800w`}
+                        sizes="(max-width: 600px) 320px, (max-width: 450px) 320px, 800px"
+                        src={require(`../img/${this.state.sport.logo}-800w.png`)}
+                        alt={this.state.sport.name} />
+                    <h1>{this.state.sport.name} app</h1>
+                    <div className='content'>
 
-                            <div className='info'>
-                                <h3>Technology:</h3>
-            
-                                <ul>
-                                {this.state.sport.tech && this.state.sport.tech.map((t, index) => <li key={index} className="tech-items">{t}</li>)}
-                                </ul>
-                                <h3>Description:</h3>
-                                <p>{this.state.sport.details}</p>
-                            </div>
+                        <div className='info'>
+                            <h3>Technology:</h3>
+        
+                            <ul>
+                            {this.state.sport.tech && this.state.sport.tech.map((t, index) => <li key={index} className="tech-items">{t}</li>)}
+                            </ul>
+                            <h3>Description:</h3>
+                            <p>{this.state.sport.details}</p>
                         </div>
                     </div>
-                </section>
-            );
-        }
+                </div>
+            </section>)
+            : null
+            : 
+            <Redirect to='/not-found' />
+        )
     }
 }

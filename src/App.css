@@ -3,8 +3,11 @@
 }
 .App {
   min-height: 100%;
-    display: grid;
-    grid-template-rows: auto 1fr auto;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
 }
 .header h1 {
   text-align: center;
