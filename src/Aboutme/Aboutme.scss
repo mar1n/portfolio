@@ -10,27 +10,24 @@
     border-radius: 10px;
 }
 
-
 .aboutme-item h1 {
     text-align: center;
     font-family: blacklettersh;
 }
+
 .aboutme p {
-    text-align: left;
     padding: 15px;
+
+    text-align: left;
 }
 
-@media (max-width: 768px) {
-    .aboutme {
-    }
-}
 @media (max-width: 480px) {
     .aboutme {
         grid-template-columns: 1fr;
     }
 }
-  
-  @font-face {
+
+@font-face {
     font-family: blacklettersh;
     src: url(../font/BLACEB__.TTF);
-  }
+}

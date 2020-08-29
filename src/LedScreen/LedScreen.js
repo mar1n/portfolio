@@ -1,5 +1,5 @@
 import React from 'react';
-import './LedScreen.css';
+import './LedScreen.scss';
 
 const NeonText = () =>
   <>

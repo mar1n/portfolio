@@ -1,5 +1,5 @@
 import React from 'react';
-import './Aboutme.css';
+import './Aboutme.scss';
 import Szymon from './szymonPortfolio.png';
 const Aboutme = () =>
     <>

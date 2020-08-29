@@ -1,5 +1,5 @@
 import React from 'react';
-import './Skills.css';
+import './Skills.scss';
 import getskills from '../skills-get.js'
 const Skill = () =>
     <>

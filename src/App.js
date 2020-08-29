@@ -6,7 +6,7 @@ import Skills from "./Skills/Skills";
 import Details from "./Details/Details.js";
 import Menu from "./Menu/Menu.js";
 import Footer from "./Footer/Footer.js";
-import "./App.css";
+import "./App.scss";
 import NotFound from "./NotFound";
 import Clock from './Clock/Clock'
 function App() {
