@@ -1,16 +1,17 @@
 nav {
     position: sticky;
     top: 20px;
-     width: 100%;
-    background-color: white;
+    width: 100%;
     z-index: 1;
+
+    background-color: white;
 }
 .menu {
     width: 80%;
     margin:  0 auto;
+    padding: 0px 0px 5px 0px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 0px 0px 5px 0px;
     justify-content: center;
     align-items: center;
 }
@@ -37,14 +38,16 @@ nav {
 
 .screen {
     width: 600px;
-    background-image: url(offLight.png);
     overflow: hidden;
     margin: auto;
+
+    background-image: url(offLight.png);
 }
 
 .led-screen {
-    animation: teleport 5s linear infinite;
     width: 600px;
+
+    animation: teleport 5s linear infinite;
 }
 
 @keyframes teleport {
@@ -65,19 +68,20 @@ a:link, a:active, a:visited, a:hover {
 }
 
 .menu .home, .about, .skill {
-    transition: background .5s ease-in-out;
     border-radius: 5px;
+
+    transition: background .5s ease-in-out;
 }
 
 .menu .home:hover, .about:hover, .skill:hover {
-    background-color: #ebebeb;
     border-radius: 5px;
+
+    background-color: #ebebeb;
 }
 
 @media (max-width: 768px) {
     .menu {
         grid-template-columns: 1fr;
-
     }
     .screen {
         width:500px;

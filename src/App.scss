@@ -1,6 +1,7 @@
 * {
   margin: 0;
 }
+
 .App {
   min-height: 100%;
   max-width: 1200px;
@@ -9,14 +10,17 @@
   display: grid;
   grid-template-rows: auto 1fr auto;
 }
+
 .header h1 {
   text-align: center;
+  padding: 5px 0px 5px 0px;
   margin: 10px 0px 0px 0px;
-  border-style: dashed none dashed none;
   width: 80%;
   margin: 0 auto;
+
+  border-style: dashed none dashed none;
   border-width: thin;
-  padding: 5px 0px 5px 0px;
+
   font-family: blacklettersh;
 }
 

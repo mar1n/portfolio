@@ -2,6 +2,7 @@ footer {
     position:-webkit-sticky; 
     position:sticky;
     bottom:0;
+
     background-color: white;
 }
 
@@ -14,44 +15,57 @@ footer {
 .footer > .item {
     margin: 10px 0px 0px 0px;
 }
+
 .footer a  {
     display: block;
     width: 48px;
     height: 48px;
 }
+
 .linkedin {
-        background-image: url(linkedin-icon-black.svg);
-        width: 48px;
-        height: 48px;
-        background-repeat: no-repeat;
+    width: 48px;
+    height: 48px;
+
+    background-image: url(linkedin-icon-black.svg);
+
+    background-repeat: no-repeat;
 }
+
 .linkedin:hover {
-        background-image: url(linkedin-icon-silver.svg);
-        width: 48px;
-        height: 48px;
-        background-repeat: no-repeat;
+    width: 48px;
+    height: 48px;
+
+    background-image: url(linkedin-icon-silver.svg);
+    background-repeat: no-repeat;
 }
+
 .github {
+    width: 48px;
+    height: 48px;
+
     background-image: url(github-icon-black.svg);
-    width: 48px;
-    height: 48px;
     background-repeat: no-repeat;
 }
+
 .github:hover {
-    background-image: url(github-icon-silver.svg);
     width: 48px;
     height: 48px;
+
+    background-image: url(github-icon-silver.svg);
     background-repeat: no-repeat;
 }
+
 .email {
-    background-image: url(email-icon-black.svg);
     width: 48px;
     height: 48px;
+
+    background-image: url(email-icon-black.svg);
     background-repeat: no-repeat;
 }
 .email:hover {
-    background-image: url(email-icon-silver.svg);
     width: 48px;
     height: 48px;
+
+    background-image: url(email-icon-silver.svg);
     background-repeat: no-repeat;
 }

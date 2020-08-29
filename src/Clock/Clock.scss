@@ -1,26 +1,29 @@
 .clock {
-    background-color: #fff;
     width: 100%;
     height: 20px;
     position: sticky;
     top: 0px;
     z-index: 1;
+
+    background-color: #fff;
 }
 
 .mainContainer {
     width: 80%;
     margin: 0 auto;
+    padding: 2px 0px 0px 20px;
     height: 17px;
     position: sticky;
     overflow: hidden;
-    padding: 2px 0px 0px 20px;
 }
 
 .mainSlide {
     display: grid;
     justify-content: left;
+    
     animation: rolles 10s linear infinite 1s;
 }
+
 .timeZone {
     height: 20px;
 }
