@@ -10,9 +10,13 @@
     width: 300px;
     height: 356px;
 
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,.2), 0 6px 20px 0 rgba(0,0,0,.19);
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2), 0 6px 20px 0 rgba(0,0,0,.19);
 
     background: linear-gradient(to bottom, #ff0000 0%, #990000 100%);
+}
+
+.projectSvg:hover {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,.2), 0 6px 20px 0 rgba(0,0,0,.19);
 }
 
 .gradient {

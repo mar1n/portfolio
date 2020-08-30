@@ -1,3 +1,22 @@
+.screen {
+    width: 600px;
+    overflow: hidden;
+    margin: auto;
+
+    background-image: url(offLight.png);
+}
+
+.led-screen {
+    width: 600px;
+
+    animation: teleport 5s linear infinite;
+}
+
+@keyframes teleport {
+    from {transform: translateX(100%); }
+    to {transform: translateX(-100%); }
+}
+
 .led {
     height: 5px;
     width: 5px;

@@ -4,7 +4,9 @@ nav {
     width: 100%;
     z-index: 1;
 
-    background-color: white;
+    border-bottom: 1px solid silver;
+
+    background-color: #e6e6e6;
 }
 
 .menu {
@@ -37,24 +39,6 @@ nav {
     text-align: center;
 }
 
-.screen {
-    width: 600px;
-    overflow: hidden;
-    margin: auto;
-
-    background-image: url(offLight.png);
-}
-
-.led-screen {
-    width: 600px;
-
-    animation: teleport 5s linear infinite;
-}
-
-@keyframes teleport {
-    from {transform: translateX(100%); }
-    to {transform: translateX(-100%); }
-}
 
 a {
     text-decoration: none;
