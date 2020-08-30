@@ -33,7 +33,7 @@ export default class Details extends React.Component {
                         srcset={`${require(`../img/${this.state.sport.logo}-320w.png`)} 320w,
                         ${require(`../img/${this.state.sport.logo}-480w.png`)} 480w,
                         ${require(`../img/${this.state.sport.logo}-800w.png`)} 800w`}
-                        sizes="(max-width: 600px) 320px, (max-width: 450px) 320px, 800px"
+                        sizes="(max-width: 800px) and (min-width: 450px) 480px, (max-width: 450px) 320px, 800px"
                         src={require(`../img/${this.state.sport.logo}-800w.png`)}
                         alt={this.state.sport.name} />
                     <h1>{this.state.sport.name} app</h1>
