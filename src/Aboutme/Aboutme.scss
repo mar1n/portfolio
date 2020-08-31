@@ -1,10 +1,11 @@
 .aboutme {
+    margin: auto;
+    padding: 15px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 15px;
     justify-items: center;
     align-items: center;
-    margin: auto;
 }
 
 .aboutme img {
@@ -22,7 +23,7 @@
     text-align: left;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 800px) {
     .aboutme {
         grid-template-columns: 1fr;
     }

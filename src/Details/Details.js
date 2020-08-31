@@ -10,7 +10,6 @@ export default class Details extends React.Component {
 
         this.state = {
             sport: {},
-            test: [2,3,4],
         };
     }
 
@@ -24,9 +23,10 @@ export default class Details extends React.Component {
             this.state.sport ?
                 this.state.sport.name ?
                ( <section>
+                   
                 <div className='Details'>
-
-                    <div className='demo-link' ><a className='demo-button' href={this.state.sport.address}>Demo {this.state.sport.name} app</a></div>
+                
+                <h1>{this.state.sport.name} app</h1>
                     <div className='underBar'></div>
                     <img
                         className='image'
@@ -36,10 +36,11 @@ export default class Details extends React.Component {
                         sizes="(max-width: 800px) and (min-width: 450px) 480px, (max-width: 450px) 320px, 800px"
                         src={require(`../img/${this.state.sport.logo}-800w.png`)}
                         alt={this.state.sport.name} />
-                    <h1>{this.state.sport.name} app</h1>
+                    
                     <div className='content'>
-
+                    
                         <div className='info'>
+                        <div className='demo-link' ><a className='demo-button' href={this.state.sport.address}>Demo {this.state.sport.name} app</a></div>
                             <h3>Technology:</h3>
         
                             <ul>
