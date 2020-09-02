@@ -28,6 +28,7 @@ export default class Details extends React.Component {
                 
                 <h1>{this.state.sport.name} app</h1>
                     <div className='underBar'></div>
+                    <div className="item-zoom">
                     <img
                         className='image'
                         srcset={`${require(`../img/${this.state.sport.logo}-320w.png`)} 320w,
@@ -36,7 +37,7 @@ export default class Details extends React.Component {
                         sizes="(max-width: 800px) and (min-width: 450px) 480px, (max-width: 450px) 320px, 800px"
                         src={require(`../img/${this.state.sport.logo}-800w.png`)}
                         alt={this.state.sport.name} />
-                    
+                    </div>
                     <div className='content'>
                     
                         <div className='info'>
