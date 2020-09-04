@@ -1,5 +1,4 @@
 import React from "react";
-import "./Aboutme.scss";
 
 import LedScreen from "../LedScreen/LedScreen";
 
@@ -20,7 +19,6 @@ const Aboutme = () => (
             <h1>Web Developer</h1>
           </div>
           <div className="aboutme-item">
-            {/* <img src={Szymon} alt='test' /> */}
             <img
               className="image"
               srcSet={`${require(`./szymon-320w.png`)} 320w,

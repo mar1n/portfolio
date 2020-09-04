@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import "./Clock.scss";
 
 export default function Clock() {
   let [clock, setClock] = useState([

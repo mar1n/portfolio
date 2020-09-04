@@ -1,6 +1,7 @@
 import React from 'react';
-import './Skills.scss';
-import getskills from '../skills-get.js'
+
+import getskills from '../skills-get.js';
+
 const Skill = () =>
     <>
         <section>

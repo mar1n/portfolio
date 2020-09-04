@@ -4,9 +4,9 @@ nav {
     width: 100%;
     z-index: 1;
 
-    border-bottom: 1px solid silver;
+    border-bottom: 1px solid $silver-color;
 
-    background-color: #e6e6e6;
+    background-color: $lightergrey-color;
 }
 
 .menu {
@@ -25,7 +25,7 @@ nav {
 }
 
 .middle {
-    border: 1px solid #ebebeb;
+    border: 1px solid $lightergrey-color;
     border-top: 0;
     border-bottom: 0;
 }
@@ -49,7 +49,7 @@ nav {
 .menu-container a::after {
     display: block;
 
-    border-bottom: solid 3px #000;
+    border-bottom: solid 3px $black-color;
 
     transform: scaleX(0);
     transition: transform 250ms ease-in-out;

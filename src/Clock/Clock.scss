@@ -5,16 +5,16 @@
     top: 0px;
     z-index: 1;
 
-    background-color: #242526;
+    background-color: $black-color;
 
-    color: ghostwhite;
+    color: $ghost-color;
 }
 
 .mainContainer {
     width: 80%;
+    height: 17px;
     margin: 0 auto;
     padding: 2px 0px 0px 20px;
-    height: 17px;
     position: sticky;
     overflow: hidden;
 }
@@ -22,7 +22,7 @@
 .mainSlide {
     display: grid;
     justify-content: left;
-    
+
     animation: rolles 10s linear infinite 1s;
 }
 

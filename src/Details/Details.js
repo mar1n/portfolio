@@ -1,7 +1,6 @@
 import React from 'react';
 import { Redirect } from 'react-router-dom';
 import getactivity from '../Content/project-get';
-import './Details.scss';
 
 export default class Details extends React.Component {
 

@@ -1,9 +1,26 @@
+@import './variables.scss';
+@import './Clock/Clock.scss';
+@import './Menu/Menu.scss';
+@import './Details/Details.scss';
+@import './Animation/Animation.scss';
+@import './Content/Portfolio.scss';
+@import './Content/Project.scss';
+@import './Aboutme/Aboutme.scss';
+@import './LedScreen/LedScreen.scss';
+@import './Skills/Skills.scss';
+@import './Footer/Footer.scss';
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: arial;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #dadce1;
+  background-color: $lightgrey-color;
 }
 
 main {

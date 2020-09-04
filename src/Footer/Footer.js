@@ -1,5 +1,4 @@
 import React from 'react';
-import './Footer.scss';
 
 import {ReactComponent as Email} from './at.svg';
 import {ReactComponent as Github} from './github.svg';

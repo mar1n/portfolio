@@ -1,5 +1,5 @@
 import React from "react";
-import "./Portfolio.scss"
+
 import getProject from "./project-get.js";
 import Project from "./Project.js";
 

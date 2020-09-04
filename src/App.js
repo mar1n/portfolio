@@ -17,7 +17,7 @@ function App() {
         <nav>
           <Menu />
         </nav>
-        
+    
         <main>
           <Switch>
             <Route exact path="/" component={Activity} />
