@@ -23,7 +23,7 @@ const Aboutme = () => (
             {/* <img src={Szymon} alt='test' /> */}
             <img
               className="image"
-              srcset={`${require(`./szymon-320w.png`)} 320w,
+              srcSet={`${require(`./szymon-320w.png`)} 320w,
                         ${require(`./szymon-480w.png`)} 480w,
                         ${require(`./szymon-800w.png`)} 800w`}
               sizes="(max-width: 600px) 320px, (max-width: 450px) 320px, 480px"

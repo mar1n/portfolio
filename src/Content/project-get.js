@@ -1,7 +1,3 @@
-import stopwatch from '../img/stopwatch.png';
-import sport from '../img/sport.png';
-import weather from '../img/weather.png';
-
 export default function getProject() {
     return [
       {id: 'stopwatch', name: 'Stopwatch', logo: 'stopwatch', address: 'https://stopwatch.cykcykacz.now.sh/', tech: ['HTML','CSS', 'JavaScript', 'React', 'TypeScript', 'Storybook'], details:'This is simulation of stopwatch.'},

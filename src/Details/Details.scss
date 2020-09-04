@@ -25,24 +25,59 @@
 }
 
 .demo-link {
-    margin: 10px 0px 10px 0px;
+    margin: 5px;
+    padding: 20px;
+    width: auto;
+    border: 1px solid #000;
+    border-radius: 4px;
+
+    background-color: #000;
+
+    font-size: 28px;
+    color: #FFFFFF;
+    text-align: center;
+
+    cursor: pointer;
+    transition: all 0.5s;
 }
 
-.demo-button {
-    display: table;
-    margin: auto;
-    padding: 10px;
+.demo-link a {
+    display: inline-block;
+    position: relative;
+    
+    text-decoration: none;
+    cursor: pointer;
+    color: ghostwhite;
 
-    background-image: linear-gradient(to bottom, silver, white);
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 15px 0 rgba(0, 0, 0, 0.19);
-
-    border-radius: 5px;
-
-    font-weight: bold;
+    transition: 0.5s;
 }
 
-.demo-button:hover {
-    opacity: 0.5;
+.demo-link a:after {
+    position: absolute;
+    top: 0;
+    right: -20px;
+
+    content: '\00bb';
+    opacity: 0;
+    color: #000;
+
+    transition: 0.5s;
+}
+
+.demo-link:hover {
+    background-color: #e6e6e6;
+}
+
+.demo-link:hover a {
+    padding-right: 25px;
+
+    color: #000;
+}
+  
+.demo-link:hover a:after {
+    right: 0;
+
+    opacity: 1;
 }
 
 .Details .content {
@@ -54,10 +89,6 @@
 
     text-align: justify;
 }
-
-// .Details img {
-//     border-radius: 15px;
-// }
 
 .backtohome {
     width: 25px;

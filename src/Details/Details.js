@@ -31,7 +31,7 @@ export default class Details extends React.Component {
                     <div className="item-zoom">
                     <img
                         className='image'
-                        srcset={`${require(`../img/${this.state.sport.logo}-320w.png`)} 320w,
+                        srcSet={`${require(`../img/${this.state.sport.logo}-320w.png`)} 320w,
                         ${require(`../img/${this.state.sport.logo}-480w.png`)} 480w,
                         ${require(`../img/${this.state.sport.logo}-800w.png`)} 800w`}
                         sizes="(max-width: 800px) and (min-width: 450px) 480px, (max-width: 450px) 320px, 800px"
