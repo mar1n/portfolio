@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 
 const Menu = () => {
     return <div className='menu'>
-        <div className='item'>
             <div className='menu-container'>
                 <div className='menu-item'>
                     <Link to={`/`} >
@@ -27,7 +26,6 @@ const Menu = () => {
                     </Link>
                 </div>
             </div>
-        </div>
     </div>
 }
 
