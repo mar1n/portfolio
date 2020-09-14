@@ -1,32 +1,41 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import Activity from '../Content/Portfolio';
+import Aboutme from '../Aboutme/AboutMe';
+import Skills from '../Skills/Skills';
+
+const routes = [
+    { path: '/', name: 'Home', Component: Activity},
+    { path: '/aboutme', name: 'About', Component: Aboutme},
+    { path: '/skills', name: 'Home', Component: Skills},
+]
 
 const Menu = () => {
+    const [open, setOpen] = useState(false);
+    const openMenu = () => setOpen(!open);
     return <div className='menu'>
-            <div className='menu-container'>
-                <div className='menu-item'>
+            <Icon open={open} openMenu={openMenu} />
+            <div onClick={openMenu} className={`menu-container ${open ? "open-container" : ""}`}>
                     <Link to={`/`} >
-                        <div className='home'>
                             Home
-                        </div>
                     </Link>
-                </div>
-                <div className='menu-item middle'>
                     <Link to={`/aboutme`}>
-                        <div className='about'>
                             About Me
-                        </div>
                     </Link>
-                </div>
-                <div className='menu-item'>
                     <Link to={`/skills`} >
-                        <div className='skill'>
                             Skills
-                        </div>
                     </Link>
-                </div>
             </div>
     </div>
 }
+
+const Icon = ({ openMenu, open }) => {
+    return (
+      <div
+        className={`menu-icon ${open ? "menu-icon-open" : ""}`}
+        onClick={openMenu}
+      ></div>
+    );
+  };
 
 export default Menu;
